@@ -1,0 +1,13 @@
+#mac stuff
+.DS_Store
+
+#eclipse stuff
+.classpath
+.project
+
+#processing stuff 
+generated/
+examples/TMC26XMotorTester/processing/TMC26XMotorTest/application.*/
+examples/TMC26XMotorTester/processing/TMC26XMotorTest/application.*
+
+*.zip
