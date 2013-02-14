@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8513,11 +8513,11 @@ Default, tight rules</description>
 <attribute name="NAME" x="1.01" y="26.925" size="1.27" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="-0.675" y="25.4" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="C2" library="rc-master" package="CSV-G" value="" x="24.98" y="18.985" smashed="yes" rot="R90">
+<element name="C2" library="rc-master" package="CSV-G" value="Elko Panasonic G, 50V, EEEFC1H470P / EEEFK1H221P" x="24.98" y="18.985" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.7" y="25.54" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="28.4725" y="24.7" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C1" library="rc-master" package="CSV-G" value="" x="13.925" y="18.985" smashed="yes" rot="R90">
+<element name="C1" library="rc-master" package="CSV-G" value="Elko Panasonic G, 50V, EEEFC1H470P / EEEFK1H221P" x="13.925" y="18.985" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.1" y="25.485" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="17.4175" y="24.7" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -8584,7 +8584,7 @@ Default, tight rules</description>
 <attribute name="NAME" x="5.12" y="29.455" size="0.8128" layer="25" ratio="18"/>
 </element>
 <element name="R9" library="rc-master-smd" package="R0603" value="10k" x="8" y="33.5" rot="R270"/>
-<element name="C8" library="rc-master-smd" package="C0603" value="" x="6.6" y="22.445" smashed="yes" rot="R180">
+<element name="C8" library="rc-master-smd" package="C0603" value="1µF,50V" x="6.6" y="22.445" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.451" y="21.746" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="8.124" y="23.969" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -8606,7 +8606,7 @@ Default, tight rules</description>
 <element name="R16" library="rc-master-smd" package="R0603" value="100k" x="11" y="37" rot="R270"/>
 <element name="R17" library="rc-master-smd" package="R0603" value="100k" x="11" y="44" rot="R270"/>
 <element name="U$10" library="molex-kk" package="KK-H-4" value="KK4H" x="56.5" y="23.5" smashed="yes"/>
-<element name="C3" library="rc-master-smd" package="C0603" value="" x="49.2" y="34.975" smashed="yes" rot="R180">
+<element name="C3" library="rc-master-smd" package="C0603" value="1µF,50V" x="49.2" y="34.975" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.826" y="33.291" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="50.724" y="36.499" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -8614,23 +8614,23 @@ Default, tight rules</description>
 <element name="SJ1" library="SparkFun" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="48.3" y="1.5" smashed="yes">
 <attribute name="NAME" x="47.392" y="2.87" size="0.8128" layer="25" ratio="18"/>
 </element>
-<element name="C4" library="rc-master-smd" package="C0603" value="" x="52" y="24.25" smashed="yes" rot="R180">
+<element name="C4" library="rc-master-smd" package="C0603" value="1µF,50V" x="52" y="24.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.976" y="23.766" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="53.524" y="25.774" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C5" library="rc-master-smd" package="C0603" value="" x="53" y="27" smashed="yes" rot="R90">
+<element name="C5" library="rc-master-smd" package="C0603" value="1µF,50V" x="53" y="27" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.316" y="30.124" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="54.524" y="25.476" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C6" library="rc-master-smd" package="C1206" value="" x="50.9" y="21.9" rot="R180"/>
+<element name="C6" library="rc-master-smd" package="C1206" value="1µF,50V" x="50.9" y="21.9" rot="R180"/>
 <element name="VMOT" library="SparkFun" package="1X02_NO_SILK" value="" x="1.89" y="18.14" smashed="yes">
 <attribute name="NAME" x="0.9438" y="19.3688" size="1.016" layer="25"/>
 <attribute name="VALUE" x="0.62" y="14.965" size="1.27" layer="27"/>
 </element>
-<element name="C2'" library="rc-master" package="CE-035X100" value="" x="13.95" y="19" smashed="yes">
+<element name="C2'" library="rc-master" package="CE-035X100" value="TTH alternative to C2" x="13.95" y="19" smashed="yes">
 <attribute name="VALUE" x="11.0925" y="15.5075" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="C1'" library="rc-master" package="CE-035X100" value="" x="25" y="19" smashed="yes">
+<element name="C1'" library="rc-master" package="CE-035X100" value="TTH alternative to C1" x="25" y="19" smashed="yes">
 <attribute name="VALUE" x="22.1425" y="15.5075" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="BRA" library="SparkFun" package="1X01" value="M01PTH" x="32.25" y="38" smashed="yes">

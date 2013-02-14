@@ -10072,8 +10072,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="J1" library="SparkFun" deviceset="POWER_JACK" device="PTH"/>
 <part name="EN" library="LED" deviceset="LED" device="MICRO-SIDELED" value="Green"/>
 <part name="PWR" library="LED" deviceset="LED" device="MICRO-SIDELED" value="Green"/>
-<part name="C2" library="rc-master" deviceset="CP_" device="SV-G"/>
-<part name="C1" library="rc-master" deviceset="CP_" device="SV-G"/>
+<part name="C2" library="rc-master" deviceset="CP_" device="SV-G" value="Elko Panasonic G, 50V, EEEFC1H470P / EEEFK1H221P"/>
+<part name="C1" library="rc-master" deviceset="CP_" device="SV-G" value="Elko Panasonic G, 50V, EEEFC1H470P / EEEFK1H221P"/>
 <part name="JP1" library="SparkFun" deviceset="M04" device="SCREW"/>
 <part name="JP2" library="SparkFun" deviceset="M06" device="SIP"/>
 <part name="JP4" library="SparkFun" deviceset="M03" device="PTH"/>
@@ -10108,7 +10108,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="Q1" library="additional" deviceset="BC858*" device="SOT323" value="BC856SOT323"/>
 <part name="R9" library="rc-master-smd" deviceset="R_" device="0603" value="10k"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
-<part name="C8" library="rc-master-smd" deviceset="C_" device="0603"/>
+<part name="C8" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="R6" library="rc-master-smd" deviceset="R_" device="0603" value="560"/>
@@ -10133,15 +10133,15 @@ DIN A4, landscape with extra doc field</description>
 <part name="R17" library="rc-master-smd" deviceset="R_" device="0603" value="100k"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$10" library="molex-kk" deviceset="KK4*" device="H"/>
-<part name="C3" library="rc-master-smd" deviceset="C_" device="0603"/>
+<part name="C3" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="C4" library="rc-master-smd" deviceset="C_" device="0603"/>
-<part name="C5" library="rc-master-smd" deviceset="C_" device="0603"/>
-<part name="C6" library="rc-master-smd" deviceset="C_" device="1206"/>
+<part name="C4" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
+<part name="C5" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
+<part name="C6" library="rc-master-smd" deviceset="C_" device="1206" value="1µF,50V"/>
 <part name="VMOT" library="SparkFun" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
-<part name="C2'" library="rc-master" deviceset="CP_" device="E-035X100"/>
-<part name="C1'" library="rc-master" deviceset="CP_" device="E-035X100"/>
+<part name="C2'" library="rc-master" deviceset="CP_" device="E-035X100" value="TTH alternative to C2"/>
+<part name="C1'" library="rc-master" deviceset="CP_" device="E-035X100" value="TTH alternative to C1"/>
 <part name="BRA" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="BRB" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="JP10" library="SparkFun" deviceset="M01" device="PTH"/>
@@ -10157,9 +10157,10 @@ DIN A4, landscape with extra doc field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="165.1" y="30.48" size="3.81" layer="94">TOS-100 Arduino Shield</text>
-<text x="165.1" y="24.13" size="1.778" layer="94">This work is licensed under a 
-Creative Commons Attribution 3.0 Germany License.</text>
+<text x="91.44" y="175.26" size="3.81" layer="94">TOS-100 Arduino Shield</text>
+<text x="165.1" y="24.13" size="1.778" layer="94">This work is licensed under a Creative Commons Attribution 3.0 
+Germany License.
+http://creativecommons.org/licenses/by/3.0/de/deed.en_US</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="25.4" y="132.08"/>
@@ -10167,8 +10168,8 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <instance part="J1" gate="G$1" x="91.44" y="147.32"/>
 <instance part="EN" gate="G$1" x="119.38" y="33.02"/>
 <instance part="PWR" gate="G$1" x="12.7" y="45.72"/>
-<instance part="C2" gate="G$1" x="96.52" y="88.9" rot="R90"/>
-<instance part="C1" gate="G$1" x="101.6" y="88.9" rot="R90"/>
+<instance part="C2" gate="G$1" x="101.6" y="83.82" rot="R90"/>
+<instance part="C1" gate="G$1" x="109.22" y="83.82" rot="R90"/>
 <instance part="JP1" gate="G$1" x="254" y="76.2" rot="R180"/>
 <instance part="JP2" gate="G$1" x="43.18" y="172.72" rot="R270"/>
 <instance part="JP4" gate="G$1" x="30.48" y="175.26" rot="R270"/>
@@ -10197,15 +10198,15 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <instance part="U$3" gate="G$1" x="55.88" y="50.8"/>
 <instance part="R10" gate="G$1" x="55.88" y="20.32" rot="R90"/>
 <instance part="GND7" gate="1" x="7.62" y="83.82"/>
-<instance part="P+3" gate="1" x="101.6" y="99.06"/>
-<instance part="GND8" gate="1" x="101.6" y="76.2"/>
+<instance part="P+3" gate="1" x="109.22" y="93.98"/>
+<instance part="GND8" gate="1" x="109.22" y="71.12"/>
 <instance part="T2" gate="G$1" x="53.34" y="33.02"/>
 <instance part="Q1" gate="G$1" x="116.84" y="43.18"/>
 <instance part="R9" gate="G$1" x="43.18" y="33.02"/>
 <instance part="GND9" gate="1" x="55.88" y="10.16"/>
-<instance part="C8" gate="G$1" x="132.08" y="88.9" rot="R90"/>
-<instance part="GND10" gate="1" x="132.08" y="76.2"/>
-<instance part="U$4" gate="G$1" x="132.08" y="99.06"/>
+<instance part="C8" gate="G$1" x="121.92" y="124.46" rot="R90"/>
+<instance part="GND10" gate="1" x="121.92" y="111.76"/>
+<instance part="U$4" gate="G$1" x="121.92" y="134.62"/>
 <instance part="R6" gate="G$1" x="12.7" y="20.32" rot="R90"/>
 <instance part="GND11" gate="1" x="12.7" y="10.16"/>
 <instance part="R12" gate="G$1" x="88.9" y="20.32" rot="R90"/>
@@ -10228,15 +10229,15 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <instance part="R17" gate="G$1" x="180.34" y="48.26"/>
 <instance part="GND15" gate="1" x="187.96" y="43.18"/>
 <instance part="U$10" gate="G$1" x="256.54" y="53.34" rot="MR0"/>
-<instance part="C3" gate="G$1" x="91.44" y="88.9" rot="R90"/>
+<instance part="C3" gate="G$1" x="93.98" y="83.82" rot="R90"/>
 <instance part="SJ1" gate="1" x="50.8" y="81.28"/>
-<instance part="C4" gate="G$1" x="106.68" y="88.9" rot="R90"/>
-<instance part="C5" gate="G$1" x="111.76" y="88.9" rot="R90"/>
-<instance part="C6" gate="G$1" x="116.84" y="88.9" rot="R90"/>
+<instance part="C4" gate="G$1" x="116.84" y="83.82" rot="R90"/>
+<instance part="C5" gate="G$1" x="124.46" y="83.82" rot="R90"/>
+<instance part="C6" gate="G$1" x="132.08" y="83.82" rot="R90"/>
 <instance part="VMOT" gate="G$1" x="119.38" y="152.4"/>
 <instance part="P+4" gate="1" x="129.54" y="157.48"/>
-<instance part="C2'" gate="G$1" x="86.36" y="88.9" rot="R90"/>
-<instance part="C1'" gate="G$1" x="81.28" y="88.9" rot="R90"/>
+<instance part="C2'" gate="G$1" x="86.36" y="83.82" rot="R90"/>
+<instance part="C1'" gate="G$1" x="78.74" y="83.82" rot="R90"/>
 <instance part="BRA" gate="G$1" x="228.6" y="124.46" rot="R180"/>
 <instance part="BRB" gate="G$1" x="228.6" y="99.06" rot="R180"/>
 <instance part="JP10" gate="G$1" x="256.54" y="127" rot="R180"/>
@@ -10713,28 +10714,28 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="86.36" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="83.82" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="86.36" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="86.36" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="83.82" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="83.82" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="86.36" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="83.82" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="83.82" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
-<junction x="101.6" y="83.82"/>
-<junction x="96.52" y="83.82"/>
-<junction x="106.68" y="83.82"/>
-<junction x="111.76" y="83.82"/>
-<junction x="91.44" y="83.82"/>
-<junction x="86.36" y="83.82"/>
+<wire x1="109.22" y1="81.28" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="78.74" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="81.28" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="81.28" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="78.74" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="78.74" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="78.74" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
+<junction x="109.22" y="78.74"/>
+<junction x="101.6" y="78.74"/>
+<junction x="116.84" y="78.74"/>
+<junction x="124.46" y="78.74"/>
+<junction x="93.98" y="78.74"/>
+<junction x="86.36" y="78.74"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="-"/>
@@ -10785,7 +10786,7 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="86.36" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="121.92" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
@@ -10871,28 +10872,28 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <pinref part="P+1" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="99.06" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="96.52" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="91.44" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="96.52" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="96.52" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="96.52" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="96.52" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="96.52" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="91.44" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
-<junction x="101.6" y="96.52"/>
-<junction x="96.52" y="96.52"/>
-<junction x="106.68" y="96.52"/>
-<junction x="111.76" y="96.52"/>
-<junction x="91.44" y="96.52"/>
-<junction x="86.36" y="96.52"/>
+<wire x1="109.22" y1="93.98" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="91.44" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="86.36" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="91.44" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="91.44" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="91.44" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="86.36" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
+<junction x="109.22" y="91.44"/>
+<junction x="101.6" y="91.44"/>
+<junction x="116.84" y="91.44"/>
+<junction x="124.46" y="91.44"/>
+<junction x="93.98" y="91.44"/>
+<junction x="86.36" y="91.44"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="C2" gate="G$1" pin="+"/>
@@ -10928,7 +10929,7 @@ Creative Commons Attribution 3.0 Germany License.</text>
 <pinref part="U$2" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="99.06" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="134.62" x2="121.92" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="5V"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 </segment>
