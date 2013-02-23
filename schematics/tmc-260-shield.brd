@@ -8549,15 +8549,15 @@ Default, tight rules</description>
 <attribute name="NAME" x="39.009" y="12.841" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="38.789" y="12.941" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C7" library="rc-master-smd" package="C0603" value="" x="51.24" y="27.005" smashed="yes" rot="R90">
+<element name="C7" library="rc-master-smd" package="C0603" value="1µF" x="51.24" y="27.005" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.376" y="30.119" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="52.764" y="25.481" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C9" library="rc-master-smd" package="C0603" value="" x="52.98" y="30.44" smashed="yes" rot="R90">
+<element name="C9" library="rc-master-smd" package="C0603" value="1µF" x="52.98" y="30.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.784" y="32.864" size="0.8128" layer="25" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="54.504" y="28.916" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C10" library="rc-master-smd" package="C0603" value="10µF" x="33.695" y="33.385" smashed="yes" rot="R270">
+<element name="C10" library="rc-master-smd" package="C0603" value="1µF" x="33.695" y="33.385" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.336" y="31.784" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="32.171" y="34.909" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -8622,7 +8622,7 @@ Default, tight rules</description>
 <attribute name="NAME" x="51.316" y="30.124" size="0.8128" layer="25" ratio="18" rot="R270"/>
 <attribute name="VALUE" x="54.524" y="25.476" size="0.6096" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C6" library="rc-master-smd" package="C1206" value="1µF,50V" x="50.9" y="21.9" rot="R180"/>
+<element name="C6" library="rc-master-smd" package="C1206" value="10µF,50V" x="50.9" y="21.9" rot="R180"/>
 <element name="VMOT" library="SparkFun" package="1X02_NO_SILK" value="" x="1.89" y="18.14" smashed="yes">
 <attribute name="NAME" x="0.9438" y="19.3688" size="1.016" layer="25"/>
 <attribute name="VALUE" x="0.62" y="14.965" size="1.27" layer="27"/>
