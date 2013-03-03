@@ -10088,9 +10088,9 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="C7" library="rc-master-smd" deviceset="C_" device="0603"/>
-<part name="C9" library="rc-master-smd" deviceset="C_" device="0603"/>
-<part name="C10" library="rc-master-smd" deviceset="C_" device="0603" value="10µF"/>
+<part name="C7" library="rc-master-smd" deviceset="C_" device="0603" value="1µF"/>
+<part name="C9" library="rc-master-smd" deviceset="C_" device="0603" value="1µF"/>
+<part name="C10" library="rc-master-smd" deviceset="C_" device="0603" value="1µF"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
@@ -10137,7 +10137,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="C4" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
 <part name="C5" library="rc-master-smd" deviceset="C_" device="0603" value="1µF,50V"/>
-<part name="C6" library="rc-master-smd" deviceset="C_" device="1206" value="1µF,50V"/>
+<part name="C6" library="rc-master-smd" deviceset="C_" device="1206" value="10µF,50V"/>
 <part name="VMOT" library="SparkFun" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C2'" library="rc-master" deviceset="CP_" device="E-035X100" value="TTH alternative to C2"/>
@@ -10186,9 +10186,9 @@ http://creativecommons.org/licenses/by/3.0/de/deed.en_US</text>
 <instance part="P+2" gate="1" x="182.88" y="170.18"/>
 <instance part="C7" gate="G$1" x="175.26" y="165.1" rot="R90"/>
 <instance part="C9" gate="G$1" x="203.2" y="81.28" rot="R90"/>
-<instance part="C10" gate="G$1" x="208.28" y="81.28" rot="R90"/>
+<instance part="C10" gate="G$1" x="210.82" y="81.28" rot="R90"/>
 <instance part="GND4" gate="1" x="149.86" y="76.2"/>
-<instance part="GND5" gate="1" x="208.28" y="71.12"/>
+<instance part="GND5" gate="1" x="210.82" y="71.12"/>
 <instance part="GND6" gate="1" x="35.56" y="83.82"/>
 <instance part="RESET" gate="S" x="15.24" y="91.44"/>
 <instance part="STEP" gate="G$1" x="55.88" y="45.72"/>
@@ -10653,10 +10653,10 @@ http://creativecommons.org/licenses/by/3.0/de/deed.en_US</text>
 </segment>
 <segment>
 <wire x1="203.2" y1="78.74" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="76.2" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="76.2" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
-<junction x="208.28" y="76.2"/>
+<wire x1="203.2" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="76.2" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="76.2" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<junction x="210.82" y="76.2"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -10815,8 +10815,8 @@ http://creativecommons.org/licenses/by/3.0/de/deed.en_US</text>
 <net name="5VOUT" class="0">
 <segment>
 <wire x1="200.66" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="88.9" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="88.9" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="86.36" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="86.36" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
