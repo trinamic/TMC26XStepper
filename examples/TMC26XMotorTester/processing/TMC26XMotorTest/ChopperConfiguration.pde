@@ -168,7 +168,7 @@ void setHystDecrement(int value) {
 }
 
 void motorcurrent(float value) {
-  if (activeTab!=null && "default".equals(activeTab.name())) {
+  if (activeTab!=null && "default".equals(activeTab.getName())) {
     currentSlider.setValue(value);
   }
 }
