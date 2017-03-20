@@ -134,23 +134,23 @@ void draw() {
 
 void controlEvent(ControlEvent theEvent) {
   if (theEvent.isGroup() && !settingStatus) {
-    if ("microstepping".equals(theEvent.group().name())) { 
-      microstepping((int)theEvent.group().value());
+    if ("microstepping".equals(theEvent.group().getName())) { 
+      microstepping((int)theEvent.group().getValue());
     } else 
-    if ("direction".equals(theEvent.group().name())) {
-      setDirection((int)theEvent.group().value());
-    } else if ("decrement".equals(theEvent.group().name())) {
-      setHysteresisDecrement((int)theEvent.group().value());
-    } else if ("coolStepIncrement".equals(theEvent.group().name())) {
-      setCoolStepIncrement((int)theEvent.group().value());
-    } else if ("coolStepDecrement".equals(theEvent.group().name())) {
-      setCoolStepDecrement((int)theEvent.group().value());
-    } else if ("coolStepMin".equals(theEvent.group().name())) {
-      setCoolStepMin((int)theEvent.group().value());
+    if ("direction".equals(theEvent.group().getName())) {
+      setDirection((int)theEvent.group().getValue());
+    } else if ("decrement".equals(theEvent.group().getName())) {
+      setHysteresisDecrement((int)theEvent.group().getValue());
+    } else if ("coolStepIncrement".equals(theEvent.group().getName())) {
+      setCoolStepIncrement((int)theEvent.group().getValue());
+    } else if ("coolStepDecrement".equals(theEvent.group().getName())) {
+      setCoolStepDecrement((int)theEvent.group().getValue());
+    } else if ("coolStepMin".equals(theEvent.group().getName())) {
+      setCoolStepMin((int)theEvent.group().getValue());
     }
   } 
   else if (theEvent.isTab()) {
     activeTab = theEvent.tab();
-    println("Tab: "+activeTab.name());
+    println("Tab: "+activeTab.getName());
   } 
 }

@@ -45,7 +45,7 @@ void setupSerialConfig() {
   //add the list of serial interfaces - it get's populated later
   serialButtons = controlP5.addRadioButton("serialport", 200, 100+TMCLogo.height*2+50);
   serialConfigElements.add(serialButtons);
-  serialButtons.captionLabel().set("Select Serial Port");
+  serialButtons.getCaptionLabel().set("Select Serial Port");
   serialButtons.showBar();
   serialButtons.moveTo(defaultTab);
   //ad the ok button

@@ -131,7 +131,7 @@ void setupRunConfig() {
 
   coolStepIncrementButtons = controlP5.addRadioButton("coolStepIncrement", 600, 40);
   controlElements.add(coolStepIncrementButtons);
-  coolStepIncrementButtons.captionLabel().set("Cool Step  Increment");
+  coolStepIncrementButtons.getCaptionLabel().set("Cool Step  Increment");
   coolStepIncrementButtons.addItem("i_1", 0);
   coolStepIncrementButtons.addItem("i_2", 1);
   coolStepIncrementButtons.addItem("i_4", 2);
@@ -145,7 +145,7 @@ void setupRunConfig() {
 
   coolStepDecrementButtons = controlP5.addRadioButton("coolStepDecrement", 600, 110);
   controlElements.add(coolStepDecrementButtons);
-  coolStepDecrementButtons.captionLabel().set("Cool Step Decrement");
+  coolStepDecrementButtons.getCaptionLabel().set("Cool Step Decrement");
   coolStepDecrementButtons.addItem("d_32", 0);
   coolStepDecrementButtons.addItem("d_8", 1);
   coolStepDecrementButtons.addItem("d_2", 2);
@@ -222,13 +222,13 @@ void stallguardthreshold(int value) {
     println("stall guard threshold: "+value);
     sendCommand("t"+value);
   }
-  if (value==sgtSlider.max()) {
+  if (value==sgtSlider.getMax()) {
     sgtPlus.lock();
   } 
   else {
     sgtPlus.unlock();
   }
-  if (value==sgtSlider.min()) {
+  if (value==sgtSlider.getMin()) {
     sgtMinus.lock();
   } 
   else {
@@ -237,11 +237,11 @@ void stallguardthreshold(int value) {
 }
 
 void sgtplus(int value) {
-  sgtSlider.setValue(sgtSlider.value()+1);
+  sgtSlider.setValue(sgtSlider.getValue()+1);
 }
 
 void sgtminus(int value) {
-  sgtSlider.setValue(sgtSlider.value()-1);
+  sgtSlider.setValue(sgtSlider.getValue()-1);
 }
 
 void sgfilter(int value) {
@@ -256,7 +256,7 @@ void current(float value) {
     int realValue=(int)(value*1000.0);
     println("current: "+((float)realValue/1000.0)+" = "+realValue);
     sendCommand("c"+realValue);
-    if (activeTab!=null && "run".equals(activeTab.name())) {
+    if (activeTab!=null && "run".equals(activeTab.getName())) {
       motorCurrentBox.setValue(value);
     }
   }
