@@ -247,8 +247,8 @@ char TMC26XStepper::move(void) {
   // decrement the number of steps, moving one step each time:
   if(this->steps_left>0) {
       unsigned long time = micros();  
-	  // move only if the appropriate delay has passed:
- 	 if (time >= this->next_step_time) {
+	  // move only if the appropriate delay has passed: (Update allows millis() to roll over)
+	  if(abs(time - this->last_step_time) > this->step_delay) {
    	 	// increment or decrement the step number,
    	 	// depending on direction:
    	 	if (this->direction == 1) {
