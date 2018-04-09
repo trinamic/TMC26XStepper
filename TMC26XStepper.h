@@ -30,6 +30,12 @@
 #ifndef TMC26XStepper_h
 #define TMC26XStepper_h
 
+#if defined(ARDUINO) && ARDUINO >= 100
+	#include <Arduino.h>
+#else
+	#include <WProgram.h>
+#endif
+
 //! return value for TMC26XStepper.getOverTemperature() if there is a overtemperature situation in the TMC chip
 /*!
  * This warning indicates that the TCM chip is too warm. 
